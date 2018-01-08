@@ -10,9 +10,9 @@ for ($i = 0; $i < ($count - 1); $i++)
     {
         if ($mang[$i] > $mang[$j]) 
         {
-            $tmp = $mang[$j];
+            $so_dem = $mang[$j];
             $mang[$j] = $mang[$i];
-            $mang[$i] = $tmp;
+            $mang[$i] = $so_dem;
         }
     }
 }
